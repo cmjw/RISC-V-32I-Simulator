@@ -3,7 +3,7 @@ FLAGS = -Wall -Wextra -std=c++17
 
 SRC = src
 
-SOURCES = $(SRC)/main.cpp
+SOURCES = $(SRC)/main.cpp $(SRC)/mem.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = cpu
 
